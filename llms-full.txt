@@ -651,7 +651,7 @@ The usual evaluation command is `agentest std run`.
 
 ### `agentest std` actions
 
-Actions: `validate`, `run`, `regress`, `export`, `gen`, `catalog`, `import`, `serve`.
+Actions: `validate`, `run`, `regress`, `export`, `gen`, `catalog`, `import`, `serve`, `diff`.
 
 Typical invocations:
 
@@ -673,6 +673,7 @@ agentest std import episodes.jsonl --map map.json --out traces.otlp.jsonl
 - `--json`.
 - `--out`.
 - `--strict`.
+- `--fail-on-new-fail`.
 - `--format`: choices json, junit, sarif, md, html, csv.
 - `--otlp`: one or more values.
 - `--card`.
